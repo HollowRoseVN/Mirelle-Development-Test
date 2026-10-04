@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &263043351565609955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 814191943471082600}
+  - component: {fileID: 8548221418271738002}
+  m_Layer: 0
+  m_Name: ExampleScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &814191943471082600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263043351565609955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8548221418271738002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263043351565609955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f8bb3eaf6431245bf3755f77a992c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExampleScript
+  renderTestVariables: 1
+  testBoolean: 0
+  testCharacter: 65
+  testString: This is an example String, Mirelle !
+  testInteger: 0
+  testDouble: 1.9
+  testFloat: 1.7456388
+  DisplayCurrentRoomType: 1
+  currentRoomType: 3
+  displayRandomCharacterAndCubeExamples: 1
+  characterExampleArray:
+  - coloredCube: {fileID: 0}
+    characterName: Rick
+    characterAge: 55
+    characterHasSpoken: 0
+    characterDialogue: Hey there ! I love blue !
+  - coloredCube: {fileID: 0}
+    characterName: Alicia
+    characterAge: 21
+    characterHasSpoken: 0
+    characterDialogue: How was your Day ? Yellow is great
+  - coloredCube: {fileID: 0}
+    characterName: Amy
+    characterAge: 24
+    characterHasSpoken: 0
+    characterDialogue: What will I do next? Red is powerful
+  characterExampleList:
+  - coloredCube: {fileID: 0}
+    characterName: Rachel
+    characterAge: 35
+    characterHasSpoken: 0
+    characterDialogue: Blue is beautiful
+  - coloredCube: {fileID: 0}
+    characterName: Ted
+    characterAge: 22
+    characterHasSpoken: 0
+    characterDialogue: Yellow makes me happy
+  - coloredCube: {fileID: 0}
+    characterName: Arnold
+    characterAge: 17
+    characterHasSpoken: 0
+    characterDialogue: Red makes me feel strong
+  thisBoolIsTrue: 1
+  thisBoolIsTrueAlso: 1
+  outputTimeValue: 1
+  timerUpdateInterval: 2
+  TestRandomNumberGenerator: 1
+  minimumNumber: 20
+  maximumNumber: 1273
+  TestOutputVectorValues: 1
+  exampleVector2: {x: 8, y: 16}
+  exampleVector3: {x: 1, y: 2, z: 3}
+  testExampleSwitchStatement: 1
+  multipleChoiceTestAnswer: 65
+  Zoo:
+  - {fileID: 0}
